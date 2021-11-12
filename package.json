@@ -25,7 +25,6 @@
     "clean-css": "^4.2.3",
     "html-minifier-terser": "^5.1.1",
     "inliner": "^1.13.1",
-    "nodemon": "^2.0.4",
     "zlib": "^1.0.5"
   }
 }

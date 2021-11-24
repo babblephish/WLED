@@ -92,6 +92,16 @@ const ethernet_settings ethernetBoards[] = {
     18,                   // eth_mdio, 
     ETH_PHY_LAN8720,      // eth_type,
     ETH_CLOCK_GPIO17_OUT  // eth_clk_mode
+  },
+  
+  // Legacy QuinLed-ESP32
+  {
+    1,			              // eth_address,
+    12,			              // eth_power,
+    13,			              // eth_mdc,
+    5,			              // eth_mdio,
+    ETH_PHY_LAN8720,      // eth_type,
+    ETH_CLOCK_GPIO0_IN	 // eth_clk_mode
   }
 };
 #endif
